@@ -3,9 +3,7 @@
 
 name: Run python script
 
-on:
-  release:
-    types: [created]
+on: [workflow_dispatch]
 
 jobs:
   deploy:
