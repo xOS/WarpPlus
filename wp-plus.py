@@ -25,7 +25,7 @@ print ("[-] SITE: aliilapro.github.io")
 print ("[-] TELEGRAM: aliilapro")
 print ("--------")
 referrer = str(sys.argv[1])
-times = str(sys.argv[2])
+times = int(sys.argv[2])
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
