@@ -25,6 +25,7 @@ print ("[-] SITE: aliilapro.github.io")
 print ("[-] TELEGRAM: aliilapro")
 print ("--------")
 referrer = str(sys.argv[1])
+times = str(sys.argv[2])
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
@@ -65,8 +66,10 @@ def run():
 
 g = 0
 b = 0
-while True:
+count = 0
+while count<times:
 	result = run()
+	count = count + 1
 	if result == 200:
 		g = g + 1
 		os.system('cls' if os.name == 'nt' else 'clear')
