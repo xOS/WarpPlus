@@ -25,4 +25,4 @@ jobs:
       env:
         USER_ID: ${{ secrets.WARP_PLUS_ID }}
       run: |
-        python wp-plus.py $USER_ID 800
+        python warp.py $USER_ID 800
